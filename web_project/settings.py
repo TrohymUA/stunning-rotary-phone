@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'hello',
+
 ]
 
 MIDDLEWARE = [
@@ -68,6 +70,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "web_project.wsgi.application"
+
+STATIC_ROOT = BASE_DIR / 'static_collected'
+
 
 
 # Database
